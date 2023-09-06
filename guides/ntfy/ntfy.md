@@ -496,3 +496,21 @@ default-host: https://LAB-UXA0001
 # subscribe:
 ```
 
+### Configure access control: 
+
+### Test our first message:
+
+1. Subscribe to a topic:
+
+```bash
+# This will wait until you stop the process:
+$ ntfy subscribe test-topic
+```
+
+2. Then in another session publish a message to the same topic:
+
+```bash
+$ ntfy publish test-topic "Test"
+```
+
+If a message is then pushed to the client and displayed in JSON then this is now complete.
