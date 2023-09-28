@@ -496,8 +496,6 @@ default-host: https://LAB-UXA0001
 # subscribe:
 ```
 
-### Configure access control: 
-
 ### Test our first message:
 
 1. Subscribe to a topic:
@@ -513,4 +511,14 @@ $ ntfy subscribe test-topic
 $ ntfy publish test-topic "Test"
 ```
 
-If a message is then pushed to the client and displayed in JSON then this is now complete.
+If a message is then pushed to the client and displayed in JSON then this is now complete. 
+
+To simply test using libcurl:
+
+1. Subscribe to the topic 
+
+```bash
+
+```
+
+### Configure access control: 
